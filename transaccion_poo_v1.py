@@ -1,16 +1,3 @@
-"""
-transaccion_poo_v1.py
-Semana 2 - Actividad 1, Paso 2: refactorizacion de PE a POO.
-
-Toma las funciones de procesador_transacciones.py (Semana 1) y junta los
-datos (cliente_id, tipo, monto) con su logica dentro de la clase Transaccion.
-
-Formato de cada linea de transacciones.txt:  ClienteID,Tipo,Monto
-Ejemplo:                                      C001,DEBITO,150000
-
-Para ejecutar (desde la carpeta de este archivo):  python transaccion_poo_v1.py
-"""
-
 
 # 1) La CLASE: el plano que une los DATOS y la LOGICA de una sola transaccion.
 #    A partir de esta UNICA definicion podemos crear tantos objetos Transaccion
